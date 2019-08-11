@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6316C0A822F7BC100069586E /* CaculateTDEEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316C0A722F7BC100069586E /* CaculateTDEEViewController.swift */; };
+		6316C0AA22F840540069586E /* BodyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316C0A922F840540069586E /* BodyDetails.swift */; };
 		63A3032222EA8270004E2C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3032122EA8270004E2C89 /* AppDelegate.swift */; };
 		63A3032422EA8270004E2C89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3032322EA8270004E2C89 /* SceneDelegate.swift */; };
 		63A3032622EA8270004E2C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3032522EA8270004E2C89 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6316C0A722F7BC100069586E /* CaculateTDEEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculateTDEEViewController.swift; sourceTree = "<group>"; };
+		6316C0A922F840540069586E /* BodyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyDetails.swift; sourceTree = "<group>"; };
 		63A3031E22EA8270004E2C89 /* TDEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3032122EA8270004E2C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A3032322EA8270004E2C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				63A3032122EA8270004E2C89 /* AppDelegate.swift */,
 				63A3032322EA8270004E2C89 /* SceneDelegate.swift */,
 				63A3032522EA8270004E2C89 /* ViewController.swift */,
+				6316C0A722F7BC100069586E /* CaculateTDEEViewController.swift */,
+				6316C0A922F840540069586E /* BodyDetails.swift */,
 				63A3032722EA8270004E2C89 /* Main.storyboard */,
 				63A3032D22EA8274004E2C89 /* Assets.xcassets */,
 				63A3032F22EA8274004E2C89 /* LaunchScreen.storyboard */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6316C0A822F7BC100069586E /* CaculateTDEEViewController.swift in Sources */,
 				63A3032622EA8270004E2C89 /* ViewController.swift in Sources */,
 				63A3032222EA8270004E2C89 /* AppDelegate.swift in Sources */,
 				63A3032422EA8270004E2C89 /* SceneDelegate.swift in Sources */,
+				6316C0AA22F840540069586E /* BodyDetails.swift in Sources */,
 				63A3032C22EA8270004E2C89 /* TDEE.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
